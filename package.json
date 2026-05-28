@@ -6,12 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "seed": "tsx scripts/seed.ts",
+    "scrape": "tsx --env-file=.env.local scripts/runScrapers.ts",
+    "process-raw": "tsx --env-file=.env.local scripts/processRawOpportunities.ts",
+    "pipeline": "tsx --env-file=.env.local scripts/dailyPipeline.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "cheerio": "^1.2.0",
+    "date-fns": "^4.3.0",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.16.0",
     "next": "16.2.6",
+    "openai": "^6.39.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tsx": "^4.22.3",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

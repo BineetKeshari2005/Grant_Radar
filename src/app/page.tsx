@@ -251,16 +251,16 @@ export default function Dashboard() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
                 </span>
-                Live Platform Updates
+                Real-Time Intelligence Feed
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight text-slate-900 tracking-tight">
-                Unlock Your Next <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500 drop-shadow-sm">Breakthrough</span>
+                Discover Global <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500 drop-shadow-sm">Funding Opportunities</span>
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-600 max-w-xl leading-relaxed">
-                Harness the power of neural intelligence to navigate the complex global landscape of grants, fellowships, and accelerators tailored just for you.
+                AI-powered intelligence platform that aggregates and analyzes grants, fellowships, and accelerator programs worldwide — so your team never misses a funding opportunity.
               </p>
               
               <div className="flex items-center gap-4 pt-4">
@@ -272,7 +272,7 @@ export default function Dashboard() {
                   ))}
                 </div>
                 <div className="text-sm font-medium text-slate-500">
-                  Join <span className="text-slate-900 font-bold">2,000+</span> founders
+                  Trusted by <span className="text-slate-900 font-bold">2,000+</span> organizations
                 </div>
               </div>
             </motion.div>

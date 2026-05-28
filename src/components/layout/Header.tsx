@@ -7,7 +7,7 @@ import { Bell } from 'lucide-react';
 
 const navLinks = [
   { name: 'Dashboard', href: '/' },
-  { name: 'Tracker', href: '/saved' },
+  { name: 'Bookmarks', href: '/saved' },
   { name: 'Analyzer', href: '/analyzer' },
 ];
 

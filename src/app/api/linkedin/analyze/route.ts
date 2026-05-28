@@ -22,13 +22,6 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: extractionError || 'Failed to extract profile.' }, { status: 500 });
     }
 
-    if (confidence < 0.1) {
-      return NextResponse.json({ 
-        error: 'Profile too incomplete to analyze. Please provide more detailed professional information.',
-        profile 
-      }, { status: 400 });
-    }
-
     // 2. Fetch Active Opportunities
     // Let's only fetch the columns we need for matching
     const { data: opportunities, error: dbError } = await supabase
